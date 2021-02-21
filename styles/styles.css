@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
 * {
   padding: 0;
   margin: 0;
@@ -468,7 +467,7 @@ li {
   background-color: white;
   color: #000;
   font-size: 2.4rem;
-  padding: 6rem;
+  padding: 6rem 2rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -506,9 +505,8 @@ li {
 
 .close-modal:hover {
   background: #00375e;
-  color: #333;
+  color: #fff;
 }
-
 
 /* SPINNER */
 #spinner-container {

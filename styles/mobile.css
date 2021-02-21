@@ -17,4 +17,16 @@
   .search-form-mobile {
     width: 100%;
   }
+
+  .mobile-nav {
+    height: 6rem;
+  }
+
+  .mobile-nav > * {
+    width: 2.5rem;
+  }
+
+  .arrow-back-mobile {
+    padding: 1.2rem 3rem;
+  }
 }
