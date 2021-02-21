@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#00375e" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="spinner-container">
+      <div class="spinner"></div>
+      <div class="ring"></div>
+    </div>
+    <section class="desktop-container">
+      <div class="desktop">
+        <div class="left-div">
+          <div class="left-div-content">
+            <div class="logo-desktop">daily.weather</div>
+            <div>
+              <div>
+                <div class="temperature-desktop">20.23°C</div>
+                <div>
+                  <div class="location-desktop">Lagos, NG.</div>
+                  <div class="date-desktop">06:09 - Sunday, 14 Feb, 2021.</div>
+                </div>
+              </div>
+              <div class="weather-type-desktop">
+                <img class="weather-type-icon-desktop" alt="" />
+                <div class="weather-type-text-desktop">Cloudy</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-div">
+          <form class="search-form-desktop search-form">
+            <input class="location-input-desktop location-input" type="text" />
+            <button><i class="fas fa-search"></i></button>
+          </form>
+          <ul class="location-history-desktop location-history"></ul>
+          <div class="weather-details-desktop">
+            <h4>Weather Details</h4>
+            <div>
+              <div>
+                <p>Humidity</p>
+                <p class="humidity-desktop">75%</p>
+              </div>
+              <div>
+                <p>Feels like</p>
+                <p class="feels-like-desktop">24.12°C</p>
+              </div>
+              <div>
+                <p>Wind speed</p>
+                <p class="wind-speed-desktop">2.3m/s</p>
+              </div>
+            </div>
+          </div>
+          <div class="next-hrs-days-desktop">
+            <p class="next-hours-desktop">Next hours</p>
+            <p class="next-days-desktop">Next days</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mobile-container">
+      <div class="mobile">
+        <div>
+          <h1 class="logo-mobile">daily.weather</h1>
+          <p class="location-mobile">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="city-and-country-mobile">Abuja, NG</span>
+          </p>
+        </div>
+        <div class="weather-details-mobile">
+          <img
+            class="weather-icon-mobile"
+            src="http://openweathermap.org/img/wn/50n@2x.png"
+          />
+          <p class="weather-description-mobile">Cloudy</p>
+          <p class="weather-temp-mobile">24.12°C</p>
+          <div class="wind-rh-feelslike">
+            <div>
+              <p>Wind</p>
+              <p class="wind-mobile">2.3m/s</p>
+            </div>
+            <div>
+              <p>RH</p>
+              <p class="rh-mobile">75%</p>
+            </div>
+            <div>
+              <p>Feels like</p>
+              <p class="feels-like-mobile">27°C</p>
+            </div>
+          </div>
+        </div>
+        <div class="twenty-four-hrs-mobile">
+          <p class="date-mobile">06:09:01 - Sun, 14 Feb, 2021.</p>
+          <div class="scroll-x"></div>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <img class="home-mobile" src="./images/home.svg" alt="" />
+        <img class="next-days-mobile" src="./images/next.svg" alt="" />
+        <img class="search-mobile" src="./images/loupe.svg" alt="" />
+      </div>
+    </section>
+    <script src="javascript/storage.js"></script>
+    <script src="javascript/weather.js"></script>
+    <script src="javascript/ui.js"></script>
+    <script src="javascript/app.js"></script>
+  </body>
+</html>

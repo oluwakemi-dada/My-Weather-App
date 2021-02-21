@@ -1,0 +1,20 @@
+@media (max-width: 900px) {
+  .desktop-container {
+    display: none;
+  }
+
+  .mobile-container {
+    display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .modal {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .search-form-mobile {
+    width: 100%;
+  }
+}
