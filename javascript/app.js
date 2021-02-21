@@ -304,10 +304,10 @@ if (document.querySelector('.mobile-container')) {
 // BROWSER RESIZE EVENT
 window.addEventListener('resize', () => {
   const width = window.innerWidth;
-  if (width > 900) {
+  if (width === 900) {
     spinner.style.display = 'block';
     window.location.reload();
-  } else if (width <= 900) {
+  } else if (width == 901) {
     spinner.style.display = 'block';
     window.location.reload();
   }
