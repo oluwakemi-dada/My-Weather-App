@@ -114,12 +114,16 @@ li {
 }
 
 .search-form-desktop input {
-  padding: 0.7rem 0.7rem;
+  padding: 0.7rem 1rem;
   border: 0;
   outline: 0;
   background: #235a80;
   width: 100%;
   color: #fff;
+}
+
+.search-form-desktop input::placeholder {
+  color: rgb(230, 225, 225);
 }
 
 .search-form-desktop button {
@@ -412,11 +416,15 @@ li {
 }
 
 .search-form-mobile input {
-  padding: 1rem 0.7rem;
+  padding: 1rem 1rem;
   border: 0;
   outline: 0;
   background: #e0eef7;
   width: 100%;
+}
+
+.search-form-mobile input::placeholder {
+  font-size: 1.6rem;
 }
 
 .search-form-mobile button {

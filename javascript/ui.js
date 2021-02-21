@@ -324,7 +324,7 @@ class UI {
     // Search form mobile
     const searchFormMobile = `
       <div class="search-form-mobile search-form">
-        <input class="location-input-mobile location-input" type="text" />
+        <input class="location-input-mobile location-input" type="text" placeholder="Search city..." />
         <button class="submit-mobile"><i id="submit-icon-mobile" class="fas fa-search"></i></button>
       </div>
     `;
