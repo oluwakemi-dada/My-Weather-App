@@ -446,7 +446,8 @@ li {
 .location-history-mobile li {
   cursor: pointer;
   margin-bottom: 1rem;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
+  color: #838181;
 }
 
 .location-history-mobile li:hover {
