@@ -7,7 +7,7 @@ const weather = new Weather(storageLocation.city);
 // INITIALIZE UI
 const ui = new UI();
 
-//
+// ELEMENT
 const spinner = document.querySelector('#spinner-container');
 
 // COLLECT LATITUDE AND LONGITUDE DATA (DESKTOP)
@@ -277,8 +277,6 @@ if (document.querySelector('.next-days-mobile')) {
     });
   });
 }
-
-//
 
 // RETURN TO HOME PAGE (DESKTOP)
 if (document.querySelector('.right-div')) {
